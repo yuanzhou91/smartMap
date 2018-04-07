@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/button_border"
+    android:orientation="vertical"
+    tools:context="com.example.smartmap_googlemap.ShowMapContext" >
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+    <Button
+        android:id="@+id/create_a_group"
+        style="@style/com_facebook_loginview_default_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/create_group" />
+
+</LinearLayout>
